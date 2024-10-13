@@ -1,3 +1,7 @@
+#ifndef DEF_Alive
+#define DEF_Alive
+
+
 #pragma once
 class Alive{
     float maxLife;
@@ -17,3 +21,5 @@ public:
         LifeA -= _Damage;
     }
 };
+
+#endif
